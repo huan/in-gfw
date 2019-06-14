@@ -1,6 +1,6 @@
 {
   "name": "in-gfw",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Identify current location is located in mainland China.",
   "main": "lib/index.js",
   "nyc": {
@@ -71,8 +71,12 @@
     "util-promisify": "^2.1.0"
   },
   "dependencies": {
+    "argparse": "^1.0.10",
     "glob": "^7.1.2",
     "is-wsl": "^1.1.0",
     "mem": "^3.0.1"
+  },
+  "bin": {
+    "in-gfw": "bin/in-gfw.js"
   }
 }
